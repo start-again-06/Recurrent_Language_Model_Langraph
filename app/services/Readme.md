@@ -70,7 +70,7 @@ flowchart TD
         A[Parse & Chunk] --> B[Embed & Store]
     end
     subgraph Query Workflow
-        C[Retrieve Chunks] --> D[Rerank (optional)] --> E[Graph Execution]
+        C[Retrieve Chunks] --> D[Rerank] --> E[Graph Execution]
     end
     Document Services --> Query Workflow
 ```
