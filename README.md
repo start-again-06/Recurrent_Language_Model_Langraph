@@ -1,7 +1,4 @@
 # Recurrent Language Model with LangGraph
-API Services & Core Language Modeling Pipeline
-
----
 
 ## Overview
 
