@@ -66,13 +66,15 @@ Services expose reusable functions that encapsulate complex backend logic. Rathe
 
 ```mermaid
 flowchart TD
-    subgraph Document Services
+    subgraph Document_Services
         A[Parse & Chunk] --> B[Embed & Store]
     end
-    subgraph Query Workflow
+    subgraph Query_Workflow
         C[Retrieve Chunks] --> D[Rerank] --> E[Graph Execution]
     end
-    Document Services --> Query Workflow
+
+    %% Connect nodes between subgraphs
+    B --> C
 ```
 
 ## Design Principles
