@@ -131,11 +131,6 @@ flowchart TD
     F --> D
     C --> D
 ```
-# Recurrent Language Model with LangGraph
-API Services & Core Language Modeling Pipeline
-
----
-
 ## Workflow Steps
 
 1. **Parse & Chunk** – Break input text into meaningful chunks  
